@@ -11,6 +11,9 @@
 		DB7542BF2B4B82FF00662DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542BE2B4B82FF00662DA9 /* ContentView.swift */; };
 		DB7542C12B4B830100662DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7542C02B4B830100662DA9 /* Assets.xcassets */; };
 		DB7542C42B4B830100662DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7542C32B4B830100662DA9 /* Preview Assets.xcassets */; };
+		DB7542CB2B4B834700662DA9 /* Inquilino.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CA2B4B834700662DA9 /* Inquilino.swift */; };
+		DB7542CD2B4B8EFF00662DA9 /* InquilinoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */; };
+		DB7542CF2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DB7542BE2B4B82FF00662DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7542C02B4B830100662DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB7542C32B4B830100662DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB7542CA2B4B834700662DA9 /* Inquilino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inquilino.swift; sourceTree = "<group>"; };
+		DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquilinoCelda.swift; sourceTree = "<group>"; };
+		DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilInquilinoUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				DB7542BE2B4B82FF00662DA9 /* ContentView.swift */,
 				DB7542C02B4B830100662DA9 /* Assets.xcassets */,
 				DB7542C22B4B830100662DA9 /* Preview Content */,
+				DB7542CA2B4B834700662DA9 /* Inquilino.swift */,
+				DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */,
+				DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */,
 			);
 			path = ControlRentas;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7542CF2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift in Sources */,
+				DB7542CD2B4B8EFF00662DA9 /* InquilinoCelda.swift in Sources */,
 				DB7542BF2B4B82FF00662DA9 /* ContentView.swift in Sources */,
 				DB7542BD2B4B82FF00662DA9 /* ControlRentasApp.swift in Sources */,
+				DB7542CB2B4B834700662DA9 /* Inquilino.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
