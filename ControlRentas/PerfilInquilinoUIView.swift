@@ -10,12 +10,10 @@ import SwiftUI
 struct PerfilInquilinoUIView: View {
     var inquilino: Inquilino
     var body: some View {
-        
-        Text("Mi Perfil")
-            .font(.largeTitle)
-            .padding()
-        
         VStack{
+            Text("Mi Perfil")
+                .font(.largeTitle)
+                .padding()
             Image(systemName: "person")
                 .resizable()
                 .frame(width: 250, height: 250, alignment: .center)
@@ -23,24 +21,24 @@ struct PerfilInquilinoUIView: View {
                 .cornerRadius(10)
                 .padding(50)
             
-            Text("Francisco David Zárate Vásquez")
+            Text("\(inquilino.nombreS) " +  "\(inquilino.primerApellido) ")
                 .font(.title2)
                 .fontWeight(.semibold)
-                .foregroundColor(.blue)
+                .foregroundColor(.black)
             HStack{
-                Text("Numero de Cuenta: ")
+                Text("Departamento")
                     .font(.headline)
                     .foregroundColor(.black)
                     .fontWeight(.medium)
                     .padding(24)
-                Text("2015140186")
+                Text(inquilino.cuarto.numero.description)
                     .padding()
             }
             let newString = String(format: "%.2f", inquilino.renta)
             
-            Text("Saldo: $\(newString)")
+            Text("Renta: $\(newString) MXN")
                 .font(.title)
-                .foregroundColor(.yellow)
+                .foregroundColor(.black)
             
         }
         .padding()
@@ -48,5 +46,5 @@ struct PerfilInquilinoUIView: View {
 }
 
 #Preview {
-    PerfilInquilinoUIView(inquilino: Inquilino(nombreS: "Javier", primerApellido: "Gallegos", numeroTelefonico: "5535923166", cuarto: Cuarto(numero: 1), renta: 2000.0))
+    PerfilInquilinoUIView(inquilino: Inquilino(nombreS: "Javier", primerApellido: "Gallegos", numeroTelefonico: "5535923166", cuarto: Cuarto(numero: 1), renta: 2000.0, hasPay: .Pendiente))
 }

@@ -9,7 +9,20 @@ import SwiftUI
 
 struct FechaUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let hoy = Date()
+        VStack(alignment: .trailing){
+            Text(formatearFecha(hoy).capitalizarPrimeraLetra())
+                .font(.subheadline)
+                .multilineTextAlignment(.trailing)
+        }
+    }
+    
+    func formatearFecha(_ fecha: Date) -> String {
+        let formateador = DateFormatter()
+        formateador.locale = Locale(identifier: "es_ES")
+        formateador.dateFormat = "EEEE d 'de' MMMM 'de' yyyy"
+
+        return formateador.string(from: fecha)
     }
 }
 

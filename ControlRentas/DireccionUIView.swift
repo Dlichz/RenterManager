@@ -10,23 +10,26 @@ import SwiftUI
 struct DireccionUIView: View {
     var body: some View {
         ZStack{
-            Color.gray.edgesIgnoringSafeArea(.all) // Fondo gris
-            
-            VStack{
-                Text("Label 1")
-                    .font(.title)
-                    .foregroundColor(.black)
+            VStack(alignment: .leading){
+                Text("Detalles de pago")
+                    .font(.title2)
+                    .frame(height: 50)
+                    .bold()
+                HStack{
+                    Text("Renta del mes: Nov")
+                    Text("Año: 2023")
+                }
+                .padding(EdgeInsets(top: 0, leading: 0, bottom: 16.00, trailing: 0))
                 
-                Text("Label 2")
-                    .font(.headline)
-                    .foregroundColor(.black)
+                Text("Monto Recibido:")
+                Text("$2000.00")
+
+                HStack{
+                    Text("Departamento")
+                    Text("B3")
+                }
+                
             }
-            .padding()
-//            .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-            .padding(.horizontal, 16)
-            .background(Color.white)
-            .cornerRadius(10)
-            .frame(width: UIScreen.main.bounds.width)
         }
     }
 }

@@ -14,6 +14,15 @@
 		DB7542CB2B4B834700662DA9 /* Inquilino.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CA2B4B834700662DA9 /* Inquilino.swift */; };
 		DB7542CD2B4B8EFF00662DA9 /* InquilinoCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */; };
 		DB7542CF2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */; };
+		DB7542D12B4B9BC700662DA9 /* EditorPerfilUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542D02B4B9BC700662DA9 /* EditorPerfilUIView.swift */; };
+		DB7542D32B4B9E4200662DA9 /* TicketRentaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542D22B4B9E4200662DA9 /* TicketRentaUIView.swift */; };
+		DB7542D52B4B9E5B00662DA9 /* FechaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542D42B4B9E5B00662DA9 /* FechaUIView.swift */; };
+		DB7542D72B4B9FC000662DA9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542D62B4B9FC000662DA9 /* String+Extension.swift */; };
+		DB7542D92B4BA00A00662DA9 /* ReciboUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542D82B4BA00A00662DA9 /* ReciboUIView.swift */; };
+		DB7542DB2B4BA66B00662DA9 /* DireccionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7542DA2B4BA66B00662DA9 /* DireccionUIView.swift */; };
+		DB7B4A512B584AF200AFF011 /* CeldaNuevaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B4A502B584AF200AFF011 /* CeldaNuevaUIView.swift */; };
+		DB7B4A542B585A7300AFF011 /* CeldaNuevaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B4A532B585A7300AFF011 /* CeldaNuevaViewModel.swift */; };
+		DB7B4A562B5899E100AFF011 /* BuscadorUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B4A552B5899E100AFF011 /* BuscadorUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		DB7542CA2B4B834700662DA9 /* Inquilino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inquilino.swift; sourceTree = "<group>"; };
 		DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquilinoCelda.swift; sourceTree = "<group>"; };
 		DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilInquilinoUIView.swift; sourceTree = "<group>"; };
+		DB7542D02B4B9BC700662DA9 /* EditorPerfilUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPerfilUIView.swift; sourceTree = "<group>"; };
+		DB7542D22B4B9E4200662DA9 /* TicketRentaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRentaUIView.swift; sourceTree = "<group>"; };
+		DB7542D42B4B9E5B00662DA9 /* FechaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechaUIView.swift; sourceTree = "<group>"; };
+		DB7542D62B4B9FC000662DA9 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DB7542D82B4BA00A00662DA9 /* ReciboUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciboUIView.swift; sourceTree = "<group>"; };
+		DB7542DA2B4BA66B00662DA9 /* DireccionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DireccionUIView.swift; sourceTree = "<group>"; };
+		DB7B4A502B584AF200AFF011 /* CeldaNuevaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CeldaNuevaUIView.swift; path = ../CeldaNuevaUIView.swift; sourceTree = "<group>"; };
+		DB7B4A532B585A7300AFF011 /* CeldaNuevaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CeldaNuevaViewModel.swift; path = ../../CeldaNuevaViewModel.swift; sourceTree = "<group>"; };
+		DB7B4A552B5899E100AFF011 /* BuscadorUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuscadorUIView.swift; path = ../BuscadorUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,14 @@
 				DB7542CA2B4B834700662DA9 /* Inquilino.swift */,
 				DB7542CC2B4B8EFF00662DA9 /* InquilinoCelda.swift */,
 				DB7542CE2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift */,
+				DB7542D02B4B9BC700662DA9 /* EditorPerfilUIView.swift */,
+				DB7542D22B4B9E4200662DA9 /* TicketRentaUIView.swift */,
+				DB7542D42B4B9E5B00662DA9 /* FechaUIView.swift */,
+				DB7542D62B4B9FC000662DA9 /* String+Extension.swift */,
+				DB7542D82B4BA00A00662DA9 /* ReciboUIView.swift */,
+				DB7542DA2B4BA66B00662DA9 /* DireccionUIView.swift */,
+				DB7B4A552B5899E100AFF011 /* BuscadorUIView.swift */,
+				DB7B4A522B585A5000AFF011 /* New Group */,
 			);
 			path = ControlRentas;
 			sourceTree = "<group>";
@@ -74,6 +100,15 @@
 				DB7542C32B4B830100662DA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB7B4A522B585A5000AFF011 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DB7B4A502B584AF200AFF011 /* CeldaNuevaUIView.swift */,
+				DB7B4A532B585A7300AFF011 /* CeldaNuevaViewModel.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +182,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7542CF2B4B93FD00662DA9 /* PerfilInquilinoUIView.swift in Sources */,
+				DB7542D72B4B9FC000662DA9 /* String+Extension.swift in Sources */,
+				DB7542D92B4BA00A00662DA9 /* ReciboUIView.swift in Sources */,
+				DB7B4A562B5899E100AFF011 /* BuscadorUIView.swift in Sources */,
 				DB7542CD2B4B8EFF00662DA9 /* InquilinoCelda.swift in Sources */,
 				DB7542BF2B4B82FF00662DA9 /* ContentView.swift in Sources */,
+				DB7542D12B4B9BC700662DA9 /* EditorPerfilUIView.swift in Sources */,
+				DB7542D52B4B9E5B00662DA9 /* FechaUIView.swift in Sources */,
 				DB7542BD2B4B82FF00662DA9 /* ControlRentasApp.swift in Sources */,
+				DB7B4A542B585A7300AFF011 /* CeldaNuevaViewModel.swift in Sources */,
 				DB7542CB2B4B834700662DA9 /* Inquilino.swift in Sources */,
+				DB7542DB2B4BA66B00662DA9 /* DireccionUIView.swift in Sources */,
+				DB7B4A512B584AF200AFF011 /* CeldaNuevaUIView.swift in Sources */,
+				DB7542D32B4B9E4200662DA9 /* TicketRentaUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

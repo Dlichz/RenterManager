@@ -54,5 +54,5 @@ struct InquilinoCelda: View {
 
 #Preview {
 
-    InquilinoCelda(inquilino: Inquilino(nombreS: "Javier", primerApellido: "Gallegos", numeroTelefonico: "5535923166", cuarto: Cuarto(numero: 1), renta: 2000.0))
+    InquilinoCelda(inquilino: Inquilino(nombreS: "Javier", primerApellido: "Gallegos", numeroTelefonico: "5535923166", cuarto: Cuarto(numero: 1), renta: 2000.0, hasPay: .Pagado))
 }

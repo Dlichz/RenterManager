@@ -20,6 +20,7 @@ struct Inquilino: Identifiable, Hashable {
     var fechaDePago: Date?
     var fechaDeSalida: Date?
     var fechaDeIngreso: Date?
+    var hasPay: StatusPago
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
@@ -39,3 +40,6 @@ enum Planta: Hashable {
     case baja, primerPiso, alta
 }
 
+enum StatusPago: String, Hashable{
+    case Pagado, Pendiente, Atrasado
+}
